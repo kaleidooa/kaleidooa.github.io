@@ -8,6 +8,7 @@ theme = 'PaperMod'
 [params]
   defaultTheme = "light" # 강제로 하얀색(라이트) 배경 적용
   disableThemeToggle = true # 우측 상단의 다크모드 전환 버튼조차 없애서 완전한 백지로 만듦 (원치 않으면 false로 변경)
+  hideFooter = true
   
   ShowReadingTime = true
   ShowPostNavLinks = true

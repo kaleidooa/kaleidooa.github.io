@@ -1,3 +1,4 @@
+'''
 ---
 title: "TEST"
 date: 2026-02-11T16:00:00+09:00
@@ -59,3 +60,4 @@ asset_A = np.array([10, 20, 30, 40, 50])
 asset_B = np.array([12, 24, 33, 41, 58])
 
 print(f"공분산: {calculate_covariance(asset_A, asset_B)}")
+'''
