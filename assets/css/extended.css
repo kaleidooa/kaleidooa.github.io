@@ -1,0 +1,22 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+body {
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+/* 프로필 소개글 줄바꿈 적용을 위한 설정 */
+.profile_inner .profile-subtitle {
+    white-space: pre-line;
+    line-height: 1.6;
+}
+
+/* 전체적인 여백을 늘려 숨통을 트이게 하고, 불필요한 선 제거 */
+.list-inner {
+    border-bottom: none; /* 글 목록 사이의 회색 선 제거 */
+}
+
+/* 대문 인사말의 폰트 두께를 가볍게 조정 */
+.home-info .entry-content {
+    font-weight: 400;
+    color: #555; /* 완전한 검은색보다 살짝 부드러운 진회색으로 가독성 향상 */
+}

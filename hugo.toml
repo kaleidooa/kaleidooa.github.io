@@ -1,20 +1,39 @@
 baseURL = 'https://kaleidooa.github.io/'
 languageCode = 'ko-kr'
-title = '여정의 기록'
+title = "Yongsung Kim" # 블로그 좌측 상단에 딱 이름만 깔끔하게 노출
 theme = 'PaperMod'
 
 [params]
-  env = 'production'
-  description = 'Problem Solver & Developer'
-  author = '내 이름'
-  # GitHub, Email 등의 아이콘 링크
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/내깃허브아이디"
-  [[params.socialIcons]]
-    name = "email"
-    url = "mailto:내이메일@gmail.com"
+  defaultTheme = "light" # 강제로 하얀색(라이트) 배경 적용
+  disableThemeToggle = true # 우측 상단의 다크모드 전환 버튼조차 없애서 완전한 백지로 만듦 (원치 않으면 false로 변경)
+  
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
 
-# ✨ LaTeX(MathJax) 수식 지원을 위한 설정
+  # ✨ 사진과 버튼이 없는, 오직 텍스트로만 구성된 심플한 대문 인사말
+  [params.homeInfoParams]
+    Title = "Hi, I'm Yongsung."
+    Content = "Looking Forward to Grow UP"
+
+# 소셜 아이콘 (이메일과 깃허브 로고만 작고 심플하게 배치)
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/kaleidooa"
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:kaleidooa@gmail.com" # 본인 이메일로 변경
+
+# 꼭 필요한 상단 메뉴 2개만 남기기
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 20
+
+# 수학 수식 (LaTeX) 지원은 그대로 유지
 [params.math]
   enable = true
