@@ -1,4 +1,6 @@
 baseURL = 'https://kaleidooa.github.io/'
+relativeURLs = true
+canonifyURLs = true
 languageCode = 'ko-kr'
 title = "Yongsung Kim" # 블로그 좌측 상단에 딱 이름만 깔끔하게 노출
 theme = 'PaperMod'

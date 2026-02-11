@@ -6,24 +6,18 @@
     <description>Recent content in Posts on Yongsung Kim</description>
     <generator>Hugo -- 0.155.3</generator>
     <language>ko-kr</language>
-    <lastBuildDate>Wed, 11 Feb 2026 15:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 16:00:00 +0900</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>포트폴리오 겸 블로그 구축을 시작하며</title>
+      <title>TEST</title>
       <link>http://localhost:1313/posts/hello_world/</link>
-      <pubDate>Wed, 11 Feb 2026 15:00:00 +0900</pubDate>
+      <pubDate>Wed, 11 Feb 2026 16:00:00 +0900</pubDate>
       <guid>http://localhost:1313/posts/hello_world/</guid>
-      <description>&lt;p&gt;단순히 완성된 코드를 나열하는 것을 넘어, 치열하게 고민했던 과정과 논리의 흐름을 기록하기 위해 Hugo 기반의 블로그를 구축했다.&lt;/p&gt;
-&lt;p&gt;앞으로는 이곳에 시스템 아키텍처, 파이썬을 활용한 금융 데이터 분석 로직, 그리고 게임 엔진의 코어 로직을 구현하며 겪었던 트러블슈팅 과정을 정리할 예정이다.&lt;/p&gt;
-&lt;h2 id=&#34;테스트-1-코드-블록-삽입&#34;&gt;테스트 1: 코드 블록 삽입&lt;/h2&gt;
-&lt;p&gt;투자 비중을 계산하는 로직의 일부를 파이썬 코드로 정리해보았다.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;calculate_kelly_criterion&lt;/span&gt;(win_rate, reward_to_risk_ratio):
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    승률과 손익비를 바탕으로 켈리 공식에 따른 최적 투자 비중 계산
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;    &amp;#34;&amp;#34;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    f_star &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; (win_rate &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt; reward_to_risk_ratio &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; (&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; win_rate)) &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; reward_to_risk_ratio
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; f_stars
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+      <description>&lt;h2 id=&#34;1-수식은-현실-세계를-압축한-파일이다&#34;&gt;1. 수식은 현실 세계를 압축한 파일이다&lt;/h2&gt;
+&lt;p&gt;최근 중고등학생들을 대상으로 수학과 과학 과외를 진행하며 가장 많이 하는 고민은, &amp;ldquo;어떻게 하면 학생들이 공식을 단순 암기하지 않고 직관적으로 이해하게 만들까?&amp;ldquo;이다.&lt;/p&gt;
+&lt;p&gt;사이버국방학과에서 시스템 보안을 공부하거나 알고리즘 트레이딩 모델을 설계할 때도 마찬가지다. 데이터의 흐름을 분석하고 논리적 오류를 방어하려면 통계학적 기초가 탄탄해야 한다. 오늘은 그중에서도 데이터 간의 관계를 설명하는 핵심 개념인 **공분산(Covariance)**과 **확률의 연속성(Continuity of Probabilities)**에 대해 내 생각을 정리해 둔다.&lt;/p&gt;
+&lt;h2 id=&#34;2-공분산covariance-두-변수는-어떻게-함께-움직이는가&#34;&gt;2. 공분산(Covariance): 두 변수는 어떻게 함께 움직이는가?&lt;/h2&gt;
+&lt;p&gt;공분산은 두 확률변수 $X$와 $Y$가 어떤 양상으로 결합하여 변동하는지를 나타내는 지표다. 수식으로는 다음과 같이 정의된다.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

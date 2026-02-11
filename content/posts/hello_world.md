@@ -1,7 +1,8 @@
 ---
 title: "TEST"
-date: 2026-02-11T17:00:00+09:00
+date: 2026-02-11T16:00:00+09:00
 draft: false
+math : true
 tags: ["Math", "Statistics", "Python", "Tutoring"]
 ---
 
